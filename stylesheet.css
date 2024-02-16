@@ -13,6 +13,10 @@ body
     background: #081b29;
 
 }
+.me{
+    color: #ededed
+}
+
 .header
 {
     position: fixed;
@@ -25,6 +29,14 @@ body
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+.aaa{
+    color: #0ef;
+    font-size: 28px;
+}
+
+.fed{
+    color:#0ef;
 }
 
 .logo{
@@ -60,7 +72,7 @@ body
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(night-932424_1280.jpg) no-repeat;
+    background: url(h6.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -584,26 +596,23 @@ section{
 
 }
 
-.row{
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
 
-}
 
 .row{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    display: inline;
 
 }
 
 .row img{
-    width: 100%;
-    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
     display: block;
+    margin: 20px;
     transition: transform 0.5s;
 }
 
@@ -627,23 +636,23 @@ section{
 }
 .layer h5{
     color: #000;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p{
     color: #000;
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 20px;
+    line-height: 1.2;
 
 }
 
 .layer i{
-    color: #ff004f;
+    color: #e3ebf0;
     margin-top: 20px;
     font-size: 20px;
-    background: #fff;
+    background: rgb(22, 21, 22);
     width: 60px;
     height: 60px;
     display: flex;
@@ -754,7 +763,7 @@ section{
 
 .contact-icons i:hover{
     background: #0ef;
-    color: #000;
+    color: rgb(29, 28, 28);
     box-shadow: 0 0 20px #0ef;
 
 }
@@ -768,7 +777,7 @@ section{
     outline: none;
     width: 90%;
     padding: 18px;
-    background: #555557;
+    background: #eeeef5;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
@@ -789,7 +798,7 @@ section{
     background: #0ef;
     border-radius: 40px;
     font-size: 18px;
-    color: #081b29;
+    color: #0c0e0e;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
