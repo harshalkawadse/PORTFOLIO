@@ -599,7 +599,7 @@ section{
 .portfolio-content{
     display: flex;
     justify-content: space-between;
-
+    padding-left: 160px;
 }
 
 
@@ -610,8 +610,7 @@ section{
     border-radius: 8px;
     cursor: pointer;
     display: inline;
-    margin: 0 50px;
-
+    margin: 20px;
 }
 
 .row img{
