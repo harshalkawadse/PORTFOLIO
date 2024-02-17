@@ -73,11 +73,13 @@ body
     justify-content: space-between;
     height: 100vh;
     background: url(h6.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(h6.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .home-content{
@@ -335,8 +337,12 @@ section{
 
 }
 
-
-
+#portfolio{
+    margin-top: -350px; 
+}
+.head-project{
+    margin-bottom: 50px
+}
 .bar{
     font-size: 23px;
 
@@ -591,8 +597,8 @@ section{
 
 }
 .portfolio-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px,auto));
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -604,6 +610,7 @@ section{
     border-radius: 8px;
     cursor: pointer;
     display: inline;
+    margin: 0 50px;
 
 }
 
@@ -842,7 +849,9 @@ section{
 
 }
 
-
+.contact-icon{
+    margin-left: 200px;
+}
 
 
 
