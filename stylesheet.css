@@ -338,10 +338,12 @@ section{
 }
 
 #portfolio{
-    margin-top: -350px; 
+    margin-top: -350px;
+    width: 100%;
 }
 .head-project{
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    text-align: center;
 }
 .bar{
     font-size: 23px;
@@ -598,8 +600,7 @@ section{
 }
 .portfolio-content{
     display: flex;
-    justify-content: space-between;
-    padding-left: 160px;
+    justify-content: space-around;
 }
 
 
@@ -610,7 +611,6 @@ section{
     border-radius: 8px;
     cursor: pointer;
     display: inline;
-    margin: 20px;
 }
 
 .row img{
